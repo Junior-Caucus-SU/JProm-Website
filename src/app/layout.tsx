@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <body lang="en">
-      <Header className="centered " />
+      <Header className={"centered"} />
       <body className={inter.className}>{children}</body>
     </body>
   )
