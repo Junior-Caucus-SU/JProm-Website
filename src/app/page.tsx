@@ -4,6 +4,7 @@ export default function Home() {
   return ( 
     <div>
       <h1 className="flex justify-center ">Home</h1>
+      <h2>Subtext</h2>
     </div>
   );
     
