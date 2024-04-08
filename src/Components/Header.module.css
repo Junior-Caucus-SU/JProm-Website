@@ -1,0 +1,36 @@
+.container {
+    width: 50vw; 
+    height: 40px; 
+    border-radius: 100px; 
+    border: 1px #0629B0 solid
+}
+
+.headerDir {
+    color: #0629B0;
+    font-size: 16px;
+    font-family: Forma DJR Display;
+    font-weight: 500;
+    word-wrap: break-word;
+
+    /* make the child elements be separated evenly and the end elements not at the very ends */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.HButton:hover { 
+    background: #0629B0; 
+    box-shadow: 0px -4px 15px rgba(0, 72.47, 172.13, 0.50) inset; border-radius: 100px; border: 0.50px rgba(0, 32.31, 76.50, 0.50) solid;
+}
+
+.HButton:hover .headerDir {
+    color: #FFFFFF;
+}
+
+.tickets {
+    color: #0629B0;
+    font-size: 16px;
+    font-family: Forma DJR Display;
+    font-weight: 500;
+    word-wrap: break-word;
+}

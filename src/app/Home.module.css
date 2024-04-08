@@ -1,0 +1,60 @@
+.container {
+    max-width: 80vw;
+}
+
+.jprom_text {
+    color: #073AFF;
+    font-size: 167px;
+    font-family: Fields Display;
+    font-weight: 800;
+    line-height: 128.26px;
+    word-wrap: break-word;
+}
+
+.date_time_text {
+    color: #073AFF;
+    font-size: 20px;
+    font-family: Forma DJR Display;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word
+}
+
+.boatContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.boat {
+    width: 80vw; 
+    border-radius: 35px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.description {
+    margin: auto;
+}
+
+.description_text {
+    color: #597CFF;
+    font-size: 58px;
+    font-family: Forma DJR Text;
+    font-weight: 400;
+    line-height: 58px;
+    word-wrap: break-word;
+}
+
+.relativeContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.absoluteOverlay {
+position: absolute;
+z-index: 10; /* Ensure this is on top */
+}
